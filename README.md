@@ -7,7 +7,9 @@ included the code required to obtain the calibration matrix for your
 camera.
 
 <img src = 'Images/pose_output_image.png' width=400 height=400>
+
 ## 0. Install OpenCV
+
 `pip3 install opencv-contrib-python`<br>
 
 ## 1. ArUCo Marker Generation
