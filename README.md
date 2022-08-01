@@ -17,7 +17,7 @@ The file `generate_aruco_tags.py` contains the code for ArUCo Marker Generation.
 You need to specify the type of marker you want to generate.
 
 The command for running is :-  
-`python3 generate_aruco_tags.py --id 24 --type DICT_5X5_100 --output tags/`
+`python generate_aruco_tags.py --id 24 --type DICT_5X5_100 --output tags/`
 
 You can find more details on other parameters using `python generate_aruco_tags.py --help`
 
@@ -28,9 +28,9 @@ video file and the type of marker you want to detect.
 
 The command for running is :-  
 **For inference on images**   
-`python detect_aruco_images.py --image Images/test_image_1.png --type DICT_5X5_100`  
+`python3 detect_aruco_images.py --image Images/test_image_1.png --type DICT_5X5_100`  
 **For inference using webcam feed**  
-`python detect_aruco_video.py --type DICT_5X5_100 --camera True `  
+`python3 detect_aruco_video.py --type DICT_5X5_100 --camera True `  
 **For inference using video file**   
 `python detect_aruco_video.py --type DICT_5X5_100 --camera False --video test_video.mp4`  
 
