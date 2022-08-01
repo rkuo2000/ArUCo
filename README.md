@@ -7,13 +7,15 @@ included the code required to obtain the calibration matrix for your
 camera.
 
 <img src = 'Images/pose_output_image.png' width=400 height=400>
+## 0. Install OpenCV
+`pip3 install opencv-contrib-python`<br>
 
 ## 1. ArUCo Marker Generation
 The file `generate_aruco_tags.py` contains the code for ArUCo Marker Generation.
 You need to specify the type of marker you want to generate.
 
 The command for running is :-  
-`python generate_aruco_tags.py --id 24 --type DICT_5X5_100 --output tags/`
+`python3 generate_aruco_tags.py --id 24 --type DICT_5X5_100 --output tags/`
 
 You can find more details on other parameters using `python generate_aruco_tags.py --help`
 
